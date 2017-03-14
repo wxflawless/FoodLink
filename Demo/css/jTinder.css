@@ -32,14 +32,13 @@ body {
 #tinderslide li {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 130%;
     overflow: hidden;
     position: absolute;
     top: 0;
     z-index: 2;
-    left: 0;
+    left: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
-    overflow: hidden;
     text-align: center;
     padding: 10px 10px 10px 10px;
     background: #eee;
@@ -216,3 +215,13 @@ body {
     margin-top: 30px;
     font-weight: bold;
 }
+
+/*head*/
+/*.h1{
+    color: #333333;
+    font-family: courier;
+    font-size: 220%; 
+    padding: 20px;
+    margin: 0px 20% 50% 20%;
+    text-align: center;
+}*/
