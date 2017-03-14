@@ -10,14 +10,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style>
+    .h1{
+    color: #333333;
+    font-family: courier;
+    font-size: 300%; 
+    padding-top: 20px;
+    padding-bottom:10px; 
+    text-align: center;
+}
+</style>
 <body>
 
     <!-- Page Content -->
-    <div class="w3-container w3-teal">
-        <h1>FOODLINK</h1>
+    <div class="w3-container w3-mobile">
+        <div class="h1">FOODLINK</div>
     </div>
      <!--start padding container -->
-    <div class="wrap">
+    <div class="wrap w3-mobile w3-center">
         <!-- start jtinder container -->
         <div id="tinderslide">
             <ul>
@@ -54,22 +64,24 @@
             </ul>
         </div>
         <!-- end jtinder container -->
-        <div class="w3-bar w3-display-bottomleft w3-black w3-mobile" style="height:50px;width: 100%;">
-            <button class="w3-bar-item w3-button" style="font-size:30px;"><i class="fa fa-home"></i></button>
-            <button class="w3-bar-item w3-button" style="font-size:30px;"><i class="fa fa-user"></i></button>
-            <button class="w3-bar-item w3-button" style="font-size:30px;"><i class="fa fa-child"></i></button>
-            <button class="w3-bar-item w3-button" style="font-size:30px;"><i class="fa fa-gift"></i></button>
-            <button class="w3-bar-item w3-button" style="font-size:30px;"><i class="fa fa-cutlery"></i></button>
-            <button class="w3-bar-item w3-button" style="font-size:30px;"><i class="fa fa-cog"></i></button>
+
+        <!-- bottom bar -->
+        <div class="w3-bar w3-display-bottomleft w3-black w3-mobile" style="height:70px;width: 100%;">
+            <button class="w3-bar-item w3-button" style="font-size:36px;"><i class="fa fa-home"></i></button>
+            <button class="w3-bar-item w3-button" style="font-size:36px;"><i class="fa fa-user"></i></button>
+            <button class="w3-bar-item w3-button" style="font-size:36px;"><i class="fa fa-child"></i></button>
+            <button class="w3-bar-item w3-button" style="font-size:36px;"><i class="fa fa-gift"></i></button>
+            <button class="w3-bar-item w3-button" style="font-size:36px;"><i class="fa fa-cutlery"></i></button>
+            <button class="w3-bar-item w3-button" style="font-size:36px;"><i class="fa fa-cog"></i></button>
         </div>
     </div>
     <!-- end padding container -->
 
     <!-- jTinder trigger by buttons  -->
-    <div class="actions">
+  <!--   <div class="actions">
         <a href="#" class="dislike"><i></i></a>
         <a href="#" class="like"><i></i></a>
-    </div>
+    </div> -->
 
     <!-- jTinder status text  -->
     <div id="status"></div>
